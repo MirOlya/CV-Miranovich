@@ -1,0 +1,64 @@
+.pageContecst {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: 2s;
+}
+.photo:hover {
+  transform: scale(5) translate(0, 50%);
+}
+
+.sertificat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.contacts p {
+  color: darkgray;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.information {
+  padding: 10px;
+  color: rgb(185, 184, 184);
+  -webkit-columns: 200px 3;
+  -moz-columns: 200px 3;
+  columns: 200px 3;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-rule: 1px solid #ccc;
+  column-rule: 1px solid #ccc;
+}
+.information h3 {
+  color: oldlace;
+}
+
+.interes {
+  text-align: center;
+}
+.interes p {
+  color: darkgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.greyMir {
+  color: grey;
+}
